@@ -1,0 +1,139 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Pods/
+Podfile.lock
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Misc
+*.log
+*.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────
+#  Don't Touch My Phone — .gitignore
+# ──────────────────────────────────────────
+
+# ── Secrets (NEVER commit these) ──────────
+android/key.properties
+*.jks
+*.keystore
+*.p12
+
+# ── Flutter / Dart ─────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+doc/api/
+
+# Dart generated files
+*.g.dart.bak
+# Note: *.g.dart files ARE committed (Hive adapters)
+
+# ── Android ────────────────────────────────
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/android/**/GeneratedPluginRegistrant.java
+.cxx/
+
+# Gradle wrapper binaries (keep .properties, skip binaries)
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+
+# ── iOS ────────────────────────────────────
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+Podfile.lock
+*.xcworkspace/xcuserdata/
+
+# ── macOS ──────────────────────────────────
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# ── Web ────────────────────────────────────
+lib/generated_plugin_registrant.dart
+
+# ── IDE ────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── OS ─────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V7
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Debug info (from --obfuscate builds) ──
+build/debug-info/
+
+# ── Logs ───────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Misc ───────────────────────────────────
+*.orig
+*.bak
+*.tmp
